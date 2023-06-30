@@ -2,7 +2,7 @@ library(stargazer)
 library(dplyr)
 library(lmtest)
 library(readxl)
-data <- read_excel("C:/Users/user/Documents/Honors Thesis/regressions/robustness regs/24/24_month_lag_robust.xlsx")
+data <- read_excel(".../24_month_lag_robust.xlsx")
 
 # interaction var
 data$treat_time <- data$treatment * data$time
