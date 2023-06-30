@@ -3,7 +3,7 @@ library(dplyr)
 library(lmtest)
 library(readxl)
 
-data <- read_excel("C:/Users/user/Documents/Honors Thesis/regressions/6 month lag/thesis_reg_6.xlsx")
+data <- read_excel(".../thesis_reg_6.xlsx")
 
 # interaction var
 data$treat_time <- data$treatment * data$time
