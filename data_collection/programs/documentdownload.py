@@ -10,7 +10,7 @@
 from sec_edgar_downloader import Downloader
 from rich.progress import Progress
 
-dl = Downloader("C:/Users/user/Dropbox/honors thesis/def-14a_sample_downloads")
+dl = Downloader(".../def-14a_sample_downloads")
 
 
 # Getting Company Info
