@@ -1,4 +1,4 @@
-# Corporate Nepotism Project: Sean McQuade Undergraduate Thesis
+# Detecting Corporate Nepotism: Sean McQuade Undergraduate Thesis
 This repository contains replication materials for my undergraduate thesis titled, "When Dad is the CEO: How familial ties in the executive suite affect displays of organizational empathy." The manuscript of the paper is available in PDF form on the main page of the repository. 
 
 ## Repository Layout
