@@ -14,4 +14,4 @@ The data analysis section contains R code used to run both the main and robustne
 Should you have any questions, please feel free to reach out at spmcquade@umass.edu.
 
 
-###### By Sean McQuade, University of Massachusetts Amherst
+###### *By Sean McQuade, University of Massachusetts Amherst
