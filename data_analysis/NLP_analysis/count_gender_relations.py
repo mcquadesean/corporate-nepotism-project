@@ -16,7 +16,7 @@ def calculate_male_percentage(relationship_list):
     male_percentage = (male_count / total_count) * 100
     return male_percentage
 
-relationship_data = pd.read_excel("C:/Users/user/Documents/Honors Thesis/Part 2- Background Analysis/Data/aggregate_relationship_list.xlsx")
+relationship_data = pd.read_excel(".../aggregate_relationship_list.xlsx")
 relationship_list = relationship_data["Relationship"].tolist()
 
 percentage = calculate_male_percentage(relationship_list)
