@@ -14,7 +14,7 @@ nlp = spacy.load("en_core_web_sm") # Load the spaCy English model
 #######################################################################################
 # DATA PREP
 # Load in main dataframe
-main_data = pd.read_excel("C:/Users/user/Documents/Honors Thesis/Part 2- Background Analysis/Data/Name Data Collection.xlsx")
+main_data = pd.read_excel(".../Name Data Collection.xlsx")
 
 # Clean up html formatting to help in NLP model
 def remove_html_tags(text):
@@ -109,7 +109,7 @@ for index, row in main_data.iterrows():
                 main_data.at[index, f"familial_relationship_{i+1}"] = familial_relationships[i]
 
 
-output_file = "C:/Users/user/Documents/Honors Thesis/Part 2- Background Analysis/Data/name_data_collection_cleaned_text.xlsx"
+output_file = ".../name_data_collection_cleaned_text.xlsx"
 
 main_data.to_excel(output_file, index=False)
 
